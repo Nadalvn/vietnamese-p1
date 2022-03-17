@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <link rel="stylesheet" href="style.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script>
+      $(function() {
+	$("#visible1").click(function() {
+	    $('#invisible1').toggleClass("show");
+	  });  
+	});
+
+      $(function() {
+	$("#visible2").click(function() {
+	    $('#invisible2').toggleClass("show");
+	  });  
+	});
+
+      $(function() {
+	$("#visible4").click(function() {
+	    $('#invisible4').toggleClass("show");
+	  });  
+	});
+    </script>
+    <style>
+      .hide{display:none;}
+      .show{display:block;}
+    </style>
+  </head>
+  <body>
+    <p>Khí hậu có ảnh hưởng gì tới đời sống và hoạt động sản xuất?</p>
+    <br>
+    <p id="visible1">Đáp án</p>
+    <p id="invisible1" class="hide">Mưa lớn gây lũ lụt, có năm lại xảy ra hạn hán làm ảnh hưởng đến đời sống và hoạt động sản xuất của con người.</p>
+    <br>
+    <hr>
+    <br>
+    <p>Nước ta thuộc loại khí hậu nào?</p>
+    <br>
+    <p id="visible2">Đáp án</p>
+    <p id="invisible2" class="hide">Nước ta thuộc loại khí hậu nóng.</p>
+    <br>
+    <hr>
+    <br>
+    <p>Loại đất Phe-ra-lít được phân bô ở đâu?</p>
+    <br>
+    <p id="visible4">Đáp án</p>
+    <p id="invisible4" class="hide">Vùng đồi núi</p>
+    <br>
+    <button class="leongu">
+      <a href="https://nadalvn.github.io/my-work/" target="blank" style="text-decoration: none; color: black;">
+        ← Trở về
+      </a>  
+    </button>
+  </body>
+</html
